@@ -4,6 +4,7 @@ author: Lanlan
 email: lan78125@gamil.com
 readmore: true
 categories: Nginx学习
+describe:nginx服务器配置从零开始
 ---
 
 ### 配置服务器`Nginx`
@@ -149,7 +150,7 @@ categories: Nginx学习
 
 2.`Nginx`的命令行控制
 
-![屏幕截图 2022-09-13 194916](C:\Users\78125\Pictures\Saved Pictures\屏幕截图 2022-09-13 194916.png)
+![屏幕截图2022-09-13194916](C:\Users\78125\Pictures\Saved Pictures\屏幕截图2022-09-13194916.png)
 
 `-s`后可以跟
 

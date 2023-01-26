@@ -7,9 +7,9 @@ categories: Nginx学习
 describe:nginx服务器配置从零开始
 ---
 
-### 配置服务器`Nginx`
+### 配置服务器Nginx
 
-#### 下载`Nginx`
+#### 下载Nginx
 
 （1）进入官网查找需要下载版本的链接地址，使用wget命令获取
 
@@ -29,7 +29,7 @@ describe:nginx服务器配置从零开始
 
 安装必要的依赖包
 
-##### 安装`gcc`编译器
+##### 安装gcc编译器
 
 `yum install -y gcc`
 
@@ -45,7 +45,7 @@ describe:nginx服务器配置从零开始
 
 `yum install -y zlib zlib-devel`
 
-##### `OpenSSL`
+##### OpenSSL
 
 开放源代码的软件库包，应用程序可以使用这个包进行安全通信，并且避免被窃听。
 
@@ -59,7 +59,7 @@ describe:nginx服务器配置从零开始
 
 `make install` 
 
-#### 启动`Nginx`
+#### 启动Nginx
 
 进入目录*/usr/local/nginx/sbin*
 
@@ -88,7 +88,7 @@ describe:nginx服务器配置从零开始
 
 `firewall-cmd --reload`
 
-#### `conf`：nginx所有配置文件
+#### conf：nginx所有配置文件
 
 ​	CGI（Common Gateway Interface）通用网关【接口】，主要解决的问题是从客户端发送一个请求和数据，服务端获取到请求和数据后可以调用CGI【程序】处理及相应结果给客户端的一种标准规范。
 
@@ -123,9 +123,9 @@ describe:nginx服务器配置从零开始
 ├── scgi_temp
 └── uwsgi_temp							
 
-#### `Nginx`服务器启停命令
+#### Nginx服务器启停命令
 
-##### 1.`Nginx`服务的信号控制
+##### 1.Nginx服务的信号控制
 
 当`Nginx`启动后，我们通过`ps -ef | grep nginx`命令可以查看到如下内容
 
@@ -148,7 +148,7 @@ describe:nginx服务器配置从零开始
 
 `signal`：即为信号；`PID`即为获取到的`master`线程ID
 
-2.`Nginx`的命令行控制
+2.Nginx的命令行控制
 
 ![屏幕截图2022-09-13194916](C:\Users\78125\Pictures\Saved Pictures\屏幕截图2022-09-13194916.png)
 

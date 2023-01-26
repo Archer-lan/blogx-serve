@@ -184,7 +184,7 @@ function replaceImg(){
     //匹配文档内容中的CDFG盘路径下对应的png、jpg结尾的图片路径
     const reg_img=/([C|D|F|G]:[\S\s]*?(.png|.jpg))/g;
     //对应图片应该设置的请求路径
-    const requestPath="http:\//localhost:3000/images/"
+    const requestPath="http:\//43.136.180.159/images/"
     let imgText;
     for(let i=0;i<text.length;i++){
         while((imgText=reg_img.exec(text[i]))){
